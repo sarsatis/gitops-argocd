@@ -18,7 +18,7 @@ spec:
         sa: test
     spec:
       containers:
-      - image: sarthaksatish/solar-system:87-81e79fc27e91ca68b731df0c6d49668abba678e2
+      - image: sarthaksatish/solar-system:88-a4d7ea451869e148a460f4cae8bc8dcf6da0f4ca
         name: solar-system
         ports: 
         - containerPort: 80
