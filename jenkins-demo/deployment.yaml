@@ -9,11 +9,13 @@ spec:
   selector:
     matchLabels:
       app: solar-system
+      sa: test
   strategy: {}
   template:
     metadata:
       labels:
         app: solar-system
+        sa: test
     spec:
       containers:
       - image: sarsatis/planets:14-f8f18dd8981516a2fb6d184dd3aa80155641d7af
